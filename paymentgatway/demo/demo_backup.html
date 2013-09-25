@@ -1,0 +1,31 @@
+
+<form action="http://192.168.1.17/paymentgatway/checkout/pokeapanda.net" method="post" name="form_name1">
+    <table cellpadding="2" cellspacing="2"  width="70%" style="font:Arial, Helvetica, sans-serif; font-size:13px">
+    	<tr>
+        	<td>Merchant Web ID</td>
+            <td>
+            	<input type="text" name="G_merchant_website" value="pokeapanda.net" readonly="readonly" /> <!-- Provided by the Payment Gateway -->
+            * Provided by the Payment Gateway (e.g: pokeapanda.net)</td>
+        </tr>
+    	<tr>
+        	<td>Product Detail</td>
+            <td>
+            	<input type="text" name="G_product_description" value="" /> * Not more than 255 characters. Provided by the Merchant (e.g. Apple iPhone 4s) <!-- Provided by the Merchant -->
+            </td>
+        </tr>
+    	<tr>
+        	<td>Amount ($)</td>
+            <td>
+            	<input type="text" name="G_amount_to_pay" value="" /> *No special characters allowed. Provided by the Merchant (e.g 125.21 ) <!-- Provided by the Merchant -->
+            </td>
+        </tr>
+    	<tr>
+            <td><input type="hidden" id="G_order_num" name="G_order_num" value="123456" />
+            	<input type="submit" name="G_checkout_subt" value="Checkout" /><!-- Provided by the Merchant -->
+            </td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html>

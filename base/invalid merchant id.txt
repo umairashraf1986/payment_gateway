@@ -1,0 +1,26 @@
+<!--If Invalid Merchant ID -->
+<AXOPResponse>
+	<Response>Failed</Response>
+	<ErrorCode>100</ErrorCode>
+    <ErrorDesc>You have Invalid Merchant Website</ErrorDesc>
+</AXOPResponse>
+
+<AXOPResponse>
+	<Response>Failed</Response>
+	<ErrorCode>101</ErrorCode>
+    <ErrorDesc>Invalid Amount</ErrorDesc>
+</AXOPResponse>
+
+<AXOPResponse>
+	<Response>Failed</Response>
+	<ErrorCode>102</ErrorCode>
+    <ErrorDesc>Transaction Failed due to invalid credit card information. Please try again.</ErrorDesc>
+</AXOPResponse>
+
+<AXOPResponse>
+	<Response>Approved</Response>
+    <TransactionId></<TransactionId>
+    <Amount>23.00</Amount>
+    <Currency>USD</Currency>
+    <TransactionDate>2012-12-15 23:25:25</TransactionDate>
+</AXOPResponse>

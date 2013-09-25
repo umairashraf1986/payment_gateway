@@ -1,0 +1,24 @@
+The demo went excellent last nite. Here are comments
+
+1. Add New Merchant
+- Please allow when click on Live account, the admin gets to enter the Client ID, API Username, Password. They will be having a lot of merchants, so we need this to be dynamic
+
+2. Checkout page
+- We need to also request Order Number from merchant website. The banks will need to record that
+- Need to add a Return to Website button so that customers gets to go back to the merchant site for amending order
+
+3. View Transactions
+- Please rearrange the order. I need to have Today on the far left and Month on far right
+
+4. Please set KTB bank using Non 3D as well. Use the same demo account details
+
+5. View Transactions
+- Add Order Number which is captured from merchant website
+- Add Transaction Number which is captured from Bank return status
+
+6. View Merchants - Username
+- Please add the Username of the merchant account if the account is Live. If the account is still in Demo then just put as demo
+
+View Transactions:
+- Right now, you are only showing 7 entries per page. Set this to allow view 50 entries minimum and the admin can set to view 100 or 200 per page using dropdown
+- Allow sorting on the Name and Amount for easier searching

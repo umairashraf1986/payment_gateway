@@ -1,0 +1,35 @@
+credit Card No: 4025894025894022
+
+Month: 12
+
+Year: 12
+
+CCV2: 000
+
+-----------------------------------------------
+
+Halk Bank:
+
+$clientid = 110000000
+
+$name = KUVEYTTURKAPI
+   
+$password = KUVEYTTURK11
+  	   
+-----------------------------------------------
+
+IS Bank:
+
+$clientid = 700100000
+
+$name = ISBANKAPI
+   
+$password = ISBANK07
+
+-----------------------------------------------
+
+KTB Non 3D Bank:
+
+ClientID: 110000913
+API USER NAME : eksimadmin
+PASSWORD : Gr90dEt8

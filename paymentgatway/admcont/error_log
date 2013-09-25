@@ -1,0 +1,42 @@
+[15-Jun-2009 14:40:30] PHP Fatal error:  Call to a member function RecordCount() on a non-object in /home/nozolok1/public_html/demo/admin/bodies/trav_note.php on line 4
+[15-Jun-2009 14:47:14] PHP Fatal error:  Call to a member function RecordCount() on a non-object in /home/nozolok1/public_html/demo/admin/bodies/trav_note.php on line 4
+[15-Jun-2009 14:47:53] PHP Fatal error:  Call to a member function RecordCount() on a non-object in /home/nozolok1/public_html/demo/admin/bodies/trav_note.php on line 4
+[01-Oct-2011 17:07:07] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php:15) in /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/viewhotels.php on line 8
+[01-Oct-2011 17:07:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php:15) in /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/viewhotels.php on line 28
+[01-Oct-2011 17:09:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php:15) in /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/viewreviews.php on line 8
+[01-Oct-2011 17:15:38] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php:15) in /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/edithotel.php on line 68
+[04-Oct-2011 06:28:47] PHP Warning:  include(bodies/error.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php on line 44
+[04-Oct-2011 06:28:47] PHP Warning:  include(bodies/error.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php on line 44
+[04-Oct-2011 06:28:47] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'bodies/error.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php on line 44
+[06-Oct-2011 11:10:17] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php:15) in /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/page.php on line 12
+[06-Oct-2011 11:10:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php:15) in /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/page.php on line 12
+[07-Oct-2011 15:54:25] PHP Warning:  include(bodies/error.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php on line 44
+[07-Oct-2011 15:54:25] PHP Warning:  include(bodies/error.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php on line 44
+[07-Oct-2011 15:54:25] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'bodies/error.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php on line 44
+[10-Oct-2011 13:53:26] PHP Warning:  include(bodies/error.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php on line 44
+[10-Oct-2011 13:53:26] PHP Warning:  include(bodies/error.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php on line 44
+[10-Oct-2011 13:53:26] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'bodies/error.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php on line 44
+[20-Oct-2011 16:40:01] PHP Fatal error:  Call to undefined function  gethtyemail() in /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/viewhotels.php on line 37
+[20-Oct-2011 16:40:36] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Address "" is invalid' in /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/Postmark.php:432
+Stack trace:
+#0 /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/Postmark.php(207): Mail_Postmark->_addRecipient('to', NULL, '')
+#1 /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/viewhotels.php(48): Mail_Postmark->addTo(NULL, '')
+#2 /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php(42): include('/home/shoaib3/p...')
+#3 {main}
+  thrown in /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/Postmark.php on line 432
+[20-Oct-2011 16:45:04] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Address "" is invalid' in /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/Postmark.php:432
+Stack trace:
+#0 /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/Postmark.php(207): Mail_Postmark->_addRecipient('to', NULL, '')
+#1 /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/viewhotels.php(45): Mail_Postmark->addTo(NULL, '')
+#2 /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php(42): include('/home/shoaib3/p...')
+#3 {main}
+  thrown in /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/Postmark.php on line 432
+[20-Oct-2011 16:46:20] PHP Fatal error:  Uncaught exception 'Exception' with message 'error setting certificate verify locations:
+  CAfile: /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/Certificate/cacert.pem
+  CApath: none
+' in /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/Postmark.php:352
+Stack trace:
+#0 /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/viewhotels.php(48): Mail_Postmark->send()
+#1 /home/shoaib3/public_html/w3paradigm.com/dev/admin/admin.php(42): include('/home/shoaib3/p...')
+#2 {main}
+  thrown in /home/shoaib3/public_html/w3paradigm.com/dev/admin/bodies/Postmark.php on line 352
